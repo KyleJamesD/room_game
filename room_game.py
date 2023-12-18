@@ -55,7 +55,7 @@ def cthulu_room():
     if "flee" in choice:
         start()
     elif "bargain" in choice:
-        dead("Well that was easy!")
+        dead("The great Cthulu stares at you and you go insane!")
     else:
         cthulu_room()
 
